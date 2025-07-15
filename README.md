@@ -7,10 +7,12 @@ in quality assurance. By integrating artificial intelligence (AI) methods in par
 This master's project examines various approaches to visual anomaly detection in the industrial manufacturing environment. One focus is on the systematic comparison of modern, high-performance one-class models and vision language models (VLMs). The aim of the project is 
 to analyze the respective strengths, weaknesses and application potentials of both approaches in a well-founded manner and to derive practice-relevant findings.
 
-The master's project was conducted at the Institut für datenoptimierte Fertigung (IDF) in Kaufbeuren as part of the 'Artificial Intelligence and Computer Vision' master's course at the University of Applied Sciences Kempten.
-
-
+```bash
+---
 Using the 'pipeline':
 1. Train and test a choosen one-class model with train_and_test_cli.py
 2. Train and test AnomalyCLIP with train.py and test_vlm.py
 3. Use metrics.py and VisualizeResults.py to create final results for analysis
+```
+
+The master's project was conducted at the Institut für datenoptimierte Fertigung (IDF) in Kaufbeuren as part of the 'Artificial Intelligence and Computer Vision' master's course at the University of Applied Sciences Kempten.
