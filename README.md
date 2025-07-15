@@ -8,3 +8,9 @@ This master's project examines various approaches to visual anomaly detection in
 to analyze the respective strengths, weaknesses and application potentials of both approaches in a well-founded manner and to derive practice-relevant findings.
 
 The master's project was conducted at the Institut für datenoptimierte Fertigung (IDF) in Kaufbeuren as part of the 'Artificial Intelligence and Computer Vision' master's course at the University of Applied Sciences Kempten.
+
+
+Using the 'pipeline':
+1. Train and test a choosen one-class model with train_and_test_cli.py, test_com_anomalib.py
+2. Train and test AnomalyCLIP with train.py and test_vlm.py
+3. Use metrics.py and VisualizeResults.py to create final results for analysis
