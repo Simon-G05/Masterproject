@@ -1,4 +1,4 @@
-markdown
+```bash
 
 # Masterproject - AnomalyCLIP
 
@@ -8,3 +8,4 @@ AnomalyCLIP
 |--> data
 |--> results
 |...
+```
