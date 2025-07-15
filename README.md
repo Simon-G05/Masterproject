@@ -11,6 +11,6 @@ The master's project was conducted at the Institut für datenoptimierte Fertigun
 
 
 Using the 'pipeline':
-1. Train and test a choosen one-class model with train_and_test_cli.py, test_com_anomalib.py
+1. Train and test a choosen one-class model with train_and_test_cli.py
 2. Train and test AnomalyCLIP with train.py and test_vlm.py
 3. Use metrics.py and VisualizeResults.py to create final results for analysis
