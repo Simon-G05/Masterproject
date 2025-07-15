@@ -4,8 +4,8 @@
 To use this developed version of AnomalyCLIP, create the following additional folders:
 
 AnomalyCLIP
-  |-- data
-  |-- results
-  |-- clip_model
+  |-- data/
+  |-- results/
+  |-- clip_model/
   |...
 ```
