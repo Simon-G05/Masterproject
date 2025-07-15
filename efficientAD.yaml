@@ -1,0 +1,16 @@
+model:
+  class_path: anomalib.models.EfficientAd
+  init_args:
+    teacher_out_channels: 384
+    model_size: medium
+    lr: 0.0001
+    weight_decay: 1.0e-05
+    padding: false
+    pad_maps: true
+
+dataset:
+  train_batch_size: 1
+
+trainer:
+  max_epochs: 1000
+  max_steps: 100000

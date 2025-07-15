@@ -1,0 +1,16 @@
+model:
+  name: patchcore
+  backbone:
+    name: wide_resnet50_2
+    pretrained: true
+    layers:
+      - layer1
+      - layer2
+      - layer3
+  input_size: 384
+  feature_aggregation: concat
+  n_neighbors: 1
+  anomaly_score: euclidean
+  sampling:
+    method: greedy_coreset
+    target: 0.01  # 1% Coreset für große Klassen (Reduktion Overhead)
